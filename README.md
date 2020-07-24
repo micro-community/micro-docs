@@ -2,8 +2,6 @@
 
 Documentation, guides and quick starts for Micro
 
-Contributions welcome!
-
 ## Roadmap
 
 This is a high level overview for the open source.
@@ -27,3 +25,7 @@ This is a high level overview for the open source.
 - [ ] define the mucp protocol
 - [ ] define the mu language spec
 - [ ] implement the [wasm](https://github.com/bytecodealliance/wasm-micro-runtime) runtime
+
+## Contributing
+
+Contributions welcome! Just open a PR and start hacking away at the docs.
