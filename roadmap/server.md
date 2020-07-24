@@ -41,5 +41,4 @@ Open source related requirements
 - [x] Micro as a server
 - [x] Code generated gRPC clients
 - [ ] Clean idiomatic libraries wrapping the gRPC clients
-- [ ] Angular based web templates
 - [ ] API service interface and code generation 
