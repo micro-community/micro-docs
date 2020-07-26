@@ -2,6 +2,12 @@
 
 Documentation, guides and quick starts for Micro
 
+## Contents
+
+- [Getting Started](getting-started) - The helloworld quickstart guide
+- [Resources](resources) - External resources for reference
+- [Users](users) - Developers and companies using Micro in production
+
 ## Roadmap
 
 This is a high level overview for the open source.
