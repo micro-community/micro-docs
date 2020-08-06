@@ -9,11 +9,13 @@ summary: A getting started guide for Micro
 
 ## What is Micro?
 
-Micro is a system for building and managing distributed systems.
+Micro is a cloud native development framework
 
 Key components of Micro are as follows:
-* **Runtime**: a runtime environment for managing services including auth, config, discovery, networking, storage. 
-* **Framework**: a Go framework for writing services to be run in the runtime.
+
+* **Server**: a runtime environment for managing services including auth, config, discovery, networking, storage. 
+* **Clients**: a http api, grpc proxy and command line for accessing services
+* **Library**: a Go library for writing services to be run in the micro runtime.
 * **Clients**: multi-language clients to enable other programs to access Micro services.
 
 ## Install
@@ -21,7 +23,7 @@ Key components of Micro are as follows:
 Using Go:
 
 ```sh
-go install github.com/micro/micro/v2
+go install github.com/micro/micro/v3
 ```
 
 Or by downloading the binary
