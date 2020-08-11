@@ -22,7 +22,7 @@ This is a high level overview for the open source.
 - [x] standalone micro server
 - [x] better documentation and end to end tutorials
 - [ ] simpler kubernetes integration by default
-- [ ] pluggable wrappers for go-micro itself
+- [ ] pluggable wrappers for micro itself
 - [ ] dynamically defined cli, flags and env vars
 - [ ] improved micro api configuration 
 - [ ] graphql handler for the micro api
