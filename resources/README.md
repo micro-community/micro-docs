@@ -9,11 +9,12 @@ summary:
 
 A list of external resources, videos, tutorials and blog posts are below. Feel free to contribute.
 
-## Community
+## Official
 
 - Join [slack](https://slack.m3o.com) for the official community
 - See [M3O](https://m3o.com) for the hosted platform
 - Follow [@m3oservices](https://twitter.com/m3oservices) for the latest news
+- Checkout [awesome-micro](https://github.com/micro/awesome-micro) for more resources
 
 # Videos
 
