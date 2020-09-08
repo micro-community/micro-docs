@@ -1,6 +1,6 @@
 ## Roadmap
 
-This is a high level overview for the open source.
+This is a high level overview for the open source. See [m3o/dev](https://github.com/m3o/dev) for further info.
 
 - [X] consolidate all libraries into go-micro
 - [X] gRPC API for the micro proxy
