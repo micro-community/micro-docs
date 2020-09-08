@@ -13,4 +13,4 @@ Documentation, guides and quick starts for Micro
 
 ## Contributing
 
-Contributions welcome! Just open a PR and start hacking away at the docs.
+Open a PR and start hacking away at the docs.
