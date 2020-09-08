@@ -7,6 +7,7 @@ Documentation, guides and quick starts for Micro
 - [Getting Started](getting-started) - The helloworld quickstart guide
 - [Resources](resources) - External resources for reference
 - [Users](users) - Developers and companies using Micro in production
+- [v2](v2) - For v1/v2 documentation please see the v2 directory
 
 ## Roadmap
 
