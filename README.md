@@ -33,6 +33,8 @@ Things that need to be documented for v3
 - [ ] Writing a service
 - [ ] Deploying a service
 - [ ] Calling a service
+- [ ] Api Usage
+- [ ] Proxy Usage
 - [ ] Authentication
 - [ ] Configuration Management
 - [ ] Key-Value storage
