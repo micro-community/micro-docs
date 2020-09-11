@@ -41,3 +41,5 @@ Things that need to be documented for v3
 - [ ] Load Balancing
 - [ ] Environments
 - [ ] Running on Kubernetes
+- [ ] Example services
+- [ ] Example design patterns
