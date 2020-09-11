@@ -14,3 +14,30 @@ Documentation, guides and quick starts for Micro
 ## Contributing
 
 Open a PR and start hacking away at the docs.
+
+## TODO
+
+Things that need to be documented for v3
+
+- [ ] What is Micro
+- [ ] What problem is Micro solving
+- [ ] What is Micro's architecture
+- [ ] What environments does Micro run in
+- [ ] FAQ
+- [ ] Concepts
+- [ ] How-tos
+- [ ] Best practices
+- [ ] Installation
+- [ ] Service Library
+- [ ] Getting Started
+- [ ] Writing a service
+- [ ] Deploying a service
+- [ ] Calling a service
+- [ ] Authentication
+- [ ] Configuration Management
+- [ ] Key-Value storage
+- [ ] PubSub Messaging
+- [ ] Event Streaming
+- [ ] Load Balancing
+- [ ] Environments
+- [ ] Running on Kubernetes
