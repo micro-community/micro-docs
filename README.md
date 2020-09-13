@@ -45,3 +45,4 @@ Things that need to be documented for v3
 - [ ] Running on Kubernetes
 - [ ] Example services
 - [ ] Example design patterns
+- [ ] Loading external plugins e.g etcd 
