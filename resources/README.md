@@ -9,17 +9,20 @@ summary:
 
 A list of external resources, videos, tutorials and blog posts are below. Feel free to contribute.
 
-# Videos
+## Official
 
-- [Simplifying Microservices](https://www.youtube.com/watch?v=xspaDovwk34) by Asim Aslam
-- [Microservices in Go using Micro](https://www.youtube.com/watch?v=OcjMi9cXItY) by Brian Ketelsen
+- Join [slack](https://slack.m3o.com) for the official community
+- See [M3O](https://m3o.com) for the hosted platform
+- Follow [@m3oservices](https://twitter.com/m3oservices) for the latest news
+- Checkout [Awesome Micro](https://github.com/micro/awesome-micro) for more resources
 
 # Podcasts
 
 - [Micro on GoTime.fm](https://changelog.com/gotime/8) with Asim, Brian, Erik and Carlisia
 
-# Blogs
+# Tutorials
 
+- [M3O Tutorials](https://m3o.dev/tutorials) by Micro Services, Inc.
 - [Microservices in Golang](https://ewanvalentine.io/microservices-in-golang-part-1/) by Ewan Valentine
 - Micro in Action by Che Dan
     - [Part 1: Getting Started](https://itnext.io/micro-in-action-getting-started-a79916ae3cac) 
@@ -31,6 +34,9 @@ A list of external resources, videos, tutorials and blog posts are below. Feel f
     - [Part 7: Circuit Breaker & Rate Limiter](https://itnext.io/micro-in-action-7-circuit-breaker-rate-limiter-431ccff6a120)
     - [Coda: Distributed Cron Job](https://itnext.io/micro-in-action-coda-distributed-cron-job-a2b577885b24)
 
+# Videos
 
+- [Simplifying Microservices](https://www.youtube.com/watch?v=xspaDovwk34) by Asim Aslam
+- [Microservices in Go using Micro](https://www.youtube.com/watch?v=OcjMi9cXItY) by Brian Ketelsen
 
 {% include docs/links.html %}

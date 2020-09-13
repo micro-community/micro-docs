@@ -9,11 +9,13 @@ summary: A getting started guide for Micro
 
 ## What is Micro?
 
-Micro is a system for building and managing distributed systems.
+Micro is a cloud native development framework
 
 Key components of Micro are as follows:
-* **Runtime**: a runtime environment for managing services including auth, config, discovery, networking, storage. 
-* **Framework**: a Go framework for writing services to be run in the runtime.
+
+* **Server**: a runtime environment for managing services including auth, config, discovery, networking, storage. 
+* **Clients**: a http api, grpc proxy and command line for accessing services
+* **Library**: a Go library for writing services to be run in the micro runtime.
 * **Clients**: multi-language clients to enable other programs to access Micro services.
 
 ## Install
@@ -21,7 +23,7 @@ Key components of Micro are as follows:
 Using Go:
 
 ```sh
-go install github.com/micro/micro/v2
+go install github.com/micro/micro/v3
 ```
 
 Or by downloading the binary
@@ -52,29 +54,26 @@ If all goes well you'll see log output from the various services initialising; t
 
 To talk to this server, we just have to tell Micro CLI to address our server instead of using the default implementations - micro can work without a server too, but [more about that later](#-environments).
 
-The following command tells the CLI to talk to our server:
+The following command tells the CLI to talk to our local server:
 
 ```
-micro env set server
+micro env set local
 ```
 
 Great! We are ready to roll. Just to verify that everything is in order, let's see what services are running:
 
 ```
-$ micro list services
-go.micro.api
-go.micro.auth
-go.micro.bot
-go.micro.broker
-go.micro.config
-go.micro.debug
-go.micro.network
-go.micro.proxy
-go.micro.registry
-go.micro.router
-go.micro.runtime
-go.micro.server
-go.micro.web
+$ micro services
+api
+auth
+broker
+config
+debug
+network
+proxy
+registry
+runtime
+store
 ```
 
 All those services are ones started by our `micro server`. This is pretty cool, but still it's not something we launched! Let's start a service for which existence we can actually take credit for. If we go to [github.com/micro](https://github.com/micro), we see a bunch of services written by micro authors. One of them is the `helloworld`. Try our luck, shall we?
@@ -83,7 +82,7 @@ The command to run services is `micro run`. This command may take a while as it 
 the repository from GitHub. (@todo this actually fails currently, fix)
 
 ```
-micro run github.com/micro/helloworld
+micro run github.com/micro/services/helloworld
 ```
 
 
@@ -114,7 +113,7 @@ We have a couple of options to call a service running on our `micro server`.
 The easiest is perhaps with the CLI:
 
 ```sh
-$ micro call go.micro.service.helloworld Helloworld.Call '{"name":"Jane"}'
+$ micro call helloworld Helloworld.Call '{"name":"Jane"}'
 {
 	"msg": "Hello Jane"
 }
@@ -124,10 +123,8 @@ $ micro call go.micro.service.helloworld Helloworld.Call '{"name":"Jane"}'
 That worked! If we wonder what endpoints a service has we can run the following command:
 
 ```sh
-micro get service go.micro.service.helloworld
+micro registry getService --service=helloworld
 ```
-
-Otherwise the best place to look is at the [proto definition](https://github.com/micro/blob/master/helloworld/proto/helloworld/helloworld.proto). You can also browse to the UI at [http://localhost:8082](http://localhost:8082/service/go.micro.service.helloworld) to see live info.
 
 ### Calling a service with Go Micro
 
